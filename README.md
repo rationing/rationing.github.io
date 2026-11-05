@@ -1,2 +1,1 @@
-Visit https://rationing.github.io to play Rationing.
-
+Visit https://rationing.github.io
