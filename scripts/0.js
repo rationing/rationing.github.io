@@ -1,8 +1,8 @@
 const i = document.querySelector("input");
 const h = document.querySelector("h2");
 
-function addText() {
-  const r = fetch(i.value);
+async function addText() {
+  const r = await fetch(i.value);
   h.textContent = r.text();
 }
 
