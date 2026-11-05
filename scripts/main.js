@@ -1,1 +1,1 @@
-const string = "hi";
+const i = document.querySelector("input");
