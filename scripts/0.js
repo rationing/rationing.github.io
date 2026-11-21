@@ -1,3 +1,4 @@
 const p = document.querySelector("p");
-const r = await fetch("https://api.weather.gov/points/38.8894,-77.0352");
+const url = "https://api.weather.gov/points/43.14,89.35";
+const r = await fetch(url);
 p.textContent = await r.json();
