@@ -1,4 +1,5 @@
 const p = document.querySelector("p");
-const url = "https://api.weather.gov/points/43.14,89.35";
+const url = "https://api.weather.gov/products/types/AFD/locations/MKX/latest";
 const r = await fetch(url);
-p.textContent = await r.json();
+const r = await r.json();
+p.textContent = r.productText;
